@@ -28,7 +28,7 @@
     "reactstrap": "^8.10.0",
     "sass": "1.62.1"
   },
-  "homepage": "https://ShrieSannith.github.io/HealMeowFrontend",
+  "homepage": "https://ShrieSannith.github.io/CURECRUISE",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -38,7 +38,9 @@
     "compile-sass": "sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
     "minify-sass": "sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --style compressed",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -69,6 +71,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.3.0"
   }
 }
