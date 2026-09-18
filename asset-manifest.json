@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CURECRUISE/static/css/main.2863e50d.css",
-    "main.js": "/CURECRUISE/static/js/main.787242b3.js",
+    "main.js": "/CURECRUISE/static/js/main.f0d93fb4.js",
     "static/media/travel2.jpg": "/CURECRUISE/static/media/travel2.b433f02710c26d6b3a22.jpg",
     "static/media/travel3.jpg": "/CURECRUISE/static/media/travel3.56e127dfa1ff9b59f867.jpg",
     "static/media/bg6.jpg": "/CURECRUISE/static/media/bg6.dc603b7416966b84ac68.jpg",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.2863e50d.css",
-    "static/js/main.787242b3.js"
+    "static/js/main.f0d93fb4.js"
   ]
 }
