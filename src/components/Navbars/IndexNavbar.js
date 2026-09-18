@@ -67,7 +67,7 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand tag={Link} to="/" id="navbar-brand">
-              HealMeow
+              CureCruise
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               Go to Home
