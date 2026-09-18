@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.jsonnode_modules/
 .DS_Store
+node_modules/
+.DS_Store
