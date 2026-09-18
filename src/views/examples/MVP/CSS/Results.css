@@ -1,0 +1,26 @@
+.nav-link-hover {
+    opacity: 0.7 ;
+    transition: opacity 0.3s ease;
+}
+
+.nav-link-hover:hover {
+    opacity: 1 ;
+}
+/* Results.css */
+.BookingInfo input::placeholder {
+    color: black !important;
+    /* Change placeholder color to black */
+}
+
+@media screen and (max-width:500px){
+    html,
+    body {
+        overflow-x: hidden;
+        /* Hide horizontal scroll on phones */
+    }
+
+    .section-signup {
+        overflow: hidden;
+        /* Ensure content fits in the section */
+    }
+}

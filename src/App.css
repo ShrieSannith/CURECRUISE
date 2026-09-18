@@ -1,0 +1,36 @@
+.healmeow {
+    font-size: 500%;
+        /* Adjusted size for prominent display */
+        font-weight: bold;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+        /* Adds a subtle shadow for extra depth */
+        margin: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.bullet-points {
+  list-style-type: disc; /* Bullet style */
+  margin-left: 20px; /* Space from the left */
+  padding: 10px 0; /* Space above and below the list */
+}
+
+.bullet-points li {
+  margin-bottom: 5px; /* Space between bullet points */
+}
+
+input::placeholder {
+  color: white !important;
+  /* Change to your desired placeholder color */
+}
+
+

@@ -1,0 +1,97 @@
+/* General Styles (unchanged for desktop/tablet) */
+.sticky-image-container {
+    position: sticky;
+    top: 50px;
+    /* Stick to the top after scrolling */
+    overflow: visible;
+    /* Allow overflow */
+}
+
+.fade-img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    /* Smooth transition for fading */
+    position: absolute;
+    /* Absolute positioning for fading effect */
+}
+
+.fade-img.visible {
+    opacity: 1;
+    /* Make the image visible */
+}
+
+.fade-img.hidden {
+    opacity: 0;
+    /* Hide the image */
+}
+
+.text-section {
+    margin-bottom: 100px;
+    /* Space between sections */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+    .sticky-image-container {
+        position: relative;
+        /* Use relative positioning on mobile */
+    }
+
+    .fade-img {
+        position: relative;
+        /* Change to relative for stacking */
+        opacity: 1;
+        /* Always visible on mobile */
+        transition: none;
+        /* Disable transition on mobile */
+        width: 100%;
+        /* Fit images within screen width */
+        margin-top: 20px;
+        /* Spacing above images */
+    }
+
+    .fade-img.hidden {
+        opacity: 1;
+        /* Ensure hidden class does nothing on mobile */
+    }
+
+    .fade-img.visible {
+        opacity: 1;
+        /* Always visible */
+    }
+
+    .text-section {
+        margin-bottom: 50px;
+        /* Adjust spacing for mobile */
+    }
+
+    /* Ensure proper vertical flow */
+    .section-nucleo-icons .row {
+        flex-direction: column;
+        /* Stack columns vertically on mobile */
+    }
+
+    .text-section,
+    .fade-img {
+        width: 100%;
+        /* Stack text and images */
+    }
+}
+
+/* Bullet Points Styles */
+.bullet-points {
+    list-style-type: disc;
+    /* Bullet style */
+    margin-left: 20px;
+    /* Space from the left */
+    padding: 10px 0;
+    /* Space above and below the list */
+}
+
+.bullet-points li {
+    margin-bottom: 5px;
+    /* Space between bullet points */
+}
+.allow-overflow {
+    overflow: visible; /* Allow overflow for this section */
+}
